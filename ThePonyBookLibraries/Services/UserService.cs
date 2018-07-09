@@ -20,12 +20,31 @@ namespace ThePonyBookLibraries.Services
             return RetrieveAllUsers();
         }
 
+        public AspNetUser GetUserByEmail(string email)
+        {
+            return RetriveUserByEmail(email);
+        }
+
         private IEnumerable<AspNetUser> RetrieveAllUsers()
         {
             try
             {
                 var users = _dbContext.AspNetUsers.ToList();
                 return users;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw;
+            }
+        }
+
+        private AspNetUser RetriveUserByEmail(string email)
+        {
+            try
+            {
+                var user = _dbContext.AspNetUsers.FirstOrDefault(x => x.Email == email);
+                return user;
             }
             catch (Exception ex)
             {

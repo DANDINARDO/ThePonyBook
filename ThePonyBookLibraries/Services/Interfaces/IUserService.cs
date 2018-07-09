@@ -6,5 +6,6 @@ namespace ThePonyBookLibraries.Services.Interfaces
     public interface IUserService
     {
         IEnumerable<AspNetUser> GetAllUsers();
+        AspNetUser GetUserByEmail(string email);
     }
 }
