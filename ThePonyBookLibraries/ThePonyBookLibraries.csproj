@@ -114,6 +114,8 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.Helpers.dll</HintPath>
@@ -153,6 +155,14 @@
   <ItemGroup>
     <Compile Include="Identity\IdentityConfig.cs" />
     <Compile Include="Identity\IdentityModels.cs" />
+    <Compile Include="Repositories\EF\AspNetRole.cs" />
+    <Compile Include="Repositories\EF\AspNetUser.cs" />
+    <Compile Include="Repositories\EF\AspNetUserClaim.cs" />
+    <Compile Include="Repositories\EF\AspNetUserLogin.cs" />
+    <Compile Include="Repositories\EF\C__MigrationHistory.cs" />
+    <Compile Include="Repositories\EF\ThePonyBookModel.cs" />
+    <Compile Include="Services\Interfaces\IUserService.cs" />
+    <Compile Include="Services\UserService.cs" />
     <Compile Include="ViewModels\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
@@ -161,8 +171,6 @@
   <ItemGroup>
     <Folder Include="App_Start\" />
     <Folder Include="Business\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
