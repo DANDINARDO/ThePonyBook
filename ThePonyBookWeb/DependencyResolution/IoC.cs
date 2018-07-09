@@ -16,10 +16,14 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 
+using ThePonyBookLibraries.Repositories.EF;
+
 namespace ThePonyBookWeb.DependencyResolution {
     using StructureMap;
     using System.Web;
     using ThePonyBookLibraries.Identity;
+    using ThePonyBookLibraries.Services;
+    using ThePonyBookLibraries.Services.Interfaces;
 
     public static class IoC {
         public static IContainer Initialize()
@@ -30,6 +34,10 @@ namespace ThePonyBookWeb.DependencyResolution {
                 c.For<Microsoft.AspNet.Identity.IUserStore<ApplicationUser>>().Use<Microsoft.AspNet.Identity.EntityFramework.UserStore<ApplicationUser>>();
                 c.For<System.Data.Entity.DbContext>().Use(() => new ApplicationDbContext());
                 c.For<Microsoft.Owin.Security.IAuthenticationManager>().Use(() => HttpContext.Current.GetOwinContext().Authentication);
+
+                //User Defined Classes
+                c.For<IUserService>().Use<UserService>();
+                c.For<IDbContext>().Use<ThePonyBookModel>();
             });
         }
     }

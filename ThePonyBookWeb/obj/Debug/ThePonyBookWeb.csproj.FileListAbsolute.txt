@@ -120,3 +120,14 @@ C:\Users\Daniel.DiNardo\Documents\Visual Studio 2015\Projects\ThePonyBook\ThePon
 C:\Users\Daniel.DiNardo\Documents\Visual Studio 2015\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.csprojResolveAssemblyReference.cache
 C:\Users\Daniel.DiNardo\Documents\Visual Studio 2015\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.dll
 C:\Users\Daniel.DiNardo\Documents\Visual Studio 2015\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.pdb
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\ApplicationInsights.config
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\ThePonyBookWeb.dll.config
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\ThePonyBookWeb.dll
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\ThePonyBookWeb.pdb
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\ThePonyBookLibraries.dll
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\ThePonyBookLibraries.pdb
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\Microsoft.Web.Infrastructure.xml
+C:\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.csprojResolveAssemblyReference.cache
+C:\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.dll
+C:\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.pdb

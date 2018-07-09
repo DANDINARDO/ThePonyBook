@@ -6,6 +6,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using ThePonyBookLibraries.Identity;
+using ThePonyBookLibraries.Services.Interfaces;
 using ThePonyBookLibraries.ViewModels;
 
 namespace ThePonyBookLibraries.Web.BaseControllers
@@ -15,15 +16,17 @@ namespace ThePonyBookLibraries.Web.BaseControllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private readonly IUserService _userService;
 
         public AccountControllerBase()
         {
         }
 
-        public AccountControllerBase(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
+        public AccountControllerBase(ApplicationUserManager userManager, ApplicationSignInManager signInManager, IUserService userService)
         {
             UserManager = userManager;
             SignInManager = signInManager;
+            _userService = userService;
         }
 
         public ApplicationSignInManager SignInManager
