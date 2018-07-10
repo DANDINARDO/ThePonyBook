@@ -109,3 +109,6 @@ C:\Projects\ThePonyBook\ThePonyBookLibraries\bin\Debug\System.Web.WebPages.Deplo
 C:\Projects\ThePonyBook\ThePonyBookLibraries\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.dll
 C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.pdb
+C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.csprojResolveAssemblyReference.cache
+C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.Migrations.InitialCreate.resources
+C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.csproj.GenerateResource.Cache
