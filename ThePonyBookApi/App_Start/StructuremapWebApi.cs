@@ -28,6 +28,7 @@ namespace ThePonyBookApi.App_Start {
         public static void Start() {
 			var container = StructuremapMvc.StructureMapDependencyScope.Container;
             container.Configure(x => x.For<IUserService>().Use<UserService>());
+            container.Configure(x => x.For<IContactService>().Use<ContactService>());
             container.Configure(x => x.For<IDbContext>().Use<ThePonyBookModel>());
             GlobalConfiguration.Configuration.DependencyResolver = new StructureMapWebApiDependencyResolver(container);
         }

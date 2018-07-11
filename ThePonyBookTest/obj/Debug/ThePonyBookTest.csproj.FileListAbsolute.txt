@@ -64,3 +64,6 @@ C:\Projects\ThePonyBook\ThePonyBookTest\bin\Debug\System.Web.WebPages.Deployment
 C:\Projects\ThePonyBook\ThePonyBookTest\obj\Debug\ThePonyBookTest.csprojResolveAssemblyReference.cache
 C:\Projects\ThePonyBook\ThePonyBookTest\obj\Debug\ThePonyBookTest.dll
 C:\Projects\ThePonyBook\ThePonyBookTest\obj\Debug\ThePonyBookTest.pdb
+C:\Projects\ThePonyBook\ThePonyBookTest\bin\Debug\AutoMapper.dll
+C:\Projects\ThePonyBook\ThePonyBookTest\bin\Debug\AutoMapper.pdb
+C:\Projects\ThePonyBook\ThePonyBookTest\bin\Debug\AutoMapper.xml

@@ -72,3 +72,8 @@ C:\Projects\ThePonyBook\ThePonyBookApi\bin\Microsoft.AspNet.Identity.EntityFrame
 C:\Projects\ThePonyBook\ThePonyBookApi\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Projects\ThePonyBook\ThePonyBookApi\bin\EntityFramework.SqlServer.dll
 C:\Projects\ThePonyBook\ThePonyBookApi\bin\EntityFramework.SqlServer.xml
+C:\Projects\ThePonyBook\ThePonyBookApi\bin\AutoMapper.dll
+C:\Projects\ThePonyBook\ThePonyBookApi\bin\System.ValueTuple.dll
+C:\Projects\ThePonyBook\ThePonyBookApi\bin\AutoMapper.pdb
+C:\Projects\ThePonyBook\ThePonyBookApi\bin\AutoMapper.xml
+C:\Projects\ThePonyBook\ThePonyBookApi\bin\System.ValueTuple.xml

@@ -131,3 +131,8 @@ C:\Projects\ThePonyBook\ThePonyBookWeb\bin\Microsoft.Web.Infrastructure.xml
 C:\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.csprojResolveAssemblyReference.cache
 C:\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.dll
 C:\Projects\ThePonyBook\ThePonyBookWeb\obj\Debug\ThePonyBookWeb.pdb
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\AutoMapper.dll
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\System.ValueTuple.dll
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\AutoMapper.pdb
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\AutoMapper.xml
+C:\Projects\ThePonyBook\ThePonyBookWeb\bin\System.ValueTuple.xml
