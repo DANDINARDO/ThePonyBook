@@ -112,3 +112,8 @@ C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.pdb
 C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.csprojResolveAssemblyReference.cache
 C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.Migrations.InitialCreate.resources
 C:\Projects\ThePonyBook\ThePonyBookLibraries\obj\Debug\ThePonyBookLibraries.csproj.GenerateResource.Cache
+C:\Projects\ThePonyBook\ThePonyBookLibraries\bin\Debug\AutoMapper.dll
+C:\Projects\ThePonyBook\ThePonyBookLibraries\bin\Debug\System.ValueTuple.dll
+C:\Projects\ThePonyBook\ThePonyBookLibraries\bin\Debug\AutoMapper.pdb
+C:\Projects\ThePonyBook\ThePonyBookLibraries\bin\Debug\AutoMapper.xml
+C:\Projects\ThePonyBook\ThePonyBookLibraries\bin\Debug\System.ValueTuple.xml

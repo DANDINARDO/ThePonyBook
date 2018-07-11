@@ -17,8 +17,7 @@ namespace ThePonyBookApi.Controllers
         [Route("getuser")]
         public AspNetUser GetUserByEmail(string email)
         {
-            var user = _userService.GetUserByEmail(email);
-            return user;
+            return _userService.GetUserByEmail(email);
         }
     }
 }
