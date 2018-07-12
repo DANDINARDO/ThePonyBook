@@ -10,11 +10,19 @@ namespace ThePonyBookLibraries.Repositories.EF
         public int Id { get; set; }
 
         [StringLength(20)]
-        public string Abbreviation { get; set; }
+        public string Iso { get; set; }
 
         [StringLength(256)]
-        public string CountryName { get; set; }
+        public string Name { get; set; }
 
-        public int? PhoneCountryCode { get; set; }
+        [StringLength(256)]
+        public string Nicename { get; set; }
+
+        [StringLength(20)]
+        public string Iso3 { get; set; }
+
+        public int ? NumCode { get; set; }
+
+        public int PhoneCode { get; set; }
     }
 }

@@ -180,7 +180,9 @@
     <Compile Include="Repositories\EF\C__MigrationHistory.cs" />
     <Compile Include="Repositories\EF\PhoneType.cs" />
     <Compile Include="Repositories\EF\ThePonyBookModel.cs" />
+    <Compile Include="Services\ContactAddressService.cs" />
     <Compile Include="Services\ContactService.cs" />
+    <Compile Include="Services\Interfaces\IContactAddressService.cs" />
     <Compile Include="Services\Interfaces\IContactService.cs" />
     <Compile Include="Services\Interfaces\IUserService.cs" />
     <Compile Include="Services\UserService.cs" />
@@ -188,9 +190,12 @@
     <Compile Include="ViewModels\ContactPhone\ApiContactPhoneViewModel.cs" />
     <Compile Include="ViewModels\Contact\ApiContactViewModel.cs" />
     <Compile Include="ViewModels\Country\ApiCountryViewModel.cs" />
-    <Compile Include="ViewModels\InputModels\ApiUpdateContactInputModel.cs" />
-    <Compile Include="ViewModels\InputModels\ApiCreateContactInputModel.cs" />
-    <Compile Include="ViewModels\InputModels\ApiContactInputModelBase.cs" />
+    <Compile Include="ViewModels\InputModels\ContactAddress\ApiContactAddressInputModelBase.cs" />
+    <Compile Include="ViewModels\InputModels\ContactAddress\ApiUpdateContactAddressInputModel.cs" />
+    <Compile Include="ViewModels\InputModels\Contact\ApiUpdateContactInputModel.cs" />
+    <Compile Include="ViewModels\InputModels\Contact\ApiCreateContactInputModel.cs" />
+    <Compile Include="ViewModels\InputModels\Contact\ApiContactInputModelBase.cs" />
+    <Compile Include="ViewModels\InputModels\ContactAddress\ApiCreateContactAddressInputModel.cs" />
     <Compile Include="ViewModels\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
