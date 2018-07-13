@@ -18,8 +18,9 @@ namespace ThePonyBookLibraries.Services.Interfaces
         /// <param name="email">Contact Email</param>
         /// <param name="firstName">Contact First Name</param>
         /// <param name="lastName">Contact Last Name</param>
+        /// <param name="dob">DOB</param>
         /// <returns>Bool; record created</returns>
-        bool CreateContact(string email, string firstName, string lastName);
+        bool CreateContact(string email, string firstName, string lastName, string dob);
 
         /// <summary>
         /// Update a Contact Record
@@ -28,8 +29,9 @@ namespace ThePonyBookLibraries.Services.Interfaces
         /// <param name="email">Contact Email</param>
         /// <param name="firstName">Contact First Name</param>
         /// <param name="lastName">Contact Last Name</param>
+        /// <param name="dob">DOB</param>
         /// <returns>Bool; record updated</returns>
-        bool UpdateContact(int id, string email, string firstName, string lastName);
+        bool UpdateContact(int id, string email, string firstName, string lastName, string dob);
 
         /// <summary>
         /// Delete a Contact Record

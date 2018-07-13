@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using ThePonyBookLibraries.Repositories.EF;
 using ThePonyBookLibraries.Services.Interfaces;
 
@@ -29,14 +27,14 @@ namespace ThePonyBookLibraries.Services
             return RetrieveContacts(email);
         }
 
-        public bool CreateContact(string email, string firstName, string lastName)
+        public bool CreateContact(string email, string firstName, string lastName, string dob)
         {
-            return ProcessCreateContact(email, firstName, lastName);
+            return ProcessCreateContact(email, firstName, lastName, dob);
         }
 
-        public bool UpdateContact(int id, string email, string firstName, string lastName)
+        public bool UpdateContact(int id, string email, string firstName, string lastName, string dob)
         {
-            return ProcessUpdateContact(id, email, firstName, lastName);
+            return ProcessUpdateContact(id, email, firstName, lastName, dob);
         }
 
         public bool DeleteContact(int id)
@@ -62,7 +60,7 @@ namespace ThePonyBookLibraries.Services
             }
         }
 
-        private bool ProcessCreateContact(string email, string firstName, string lastName)
+        private bool ProcessCreateContact(string email, string firstName, string lastName, string dob)
         {
             try
             {
@@ -74,7 +72,8 @@ namespace ThePonyBookLibraries.Services
                 {
                     Email = email,
                     FirstName = firstName,
-                    LastName = lastName
+                    LastName = lastName,
+                    DOB = DateTime.Parse(dob)
                 };
                 aspNetUser.Contacts.Add(contact);
                 _dbContext.SaveChangesAsync();
@@ -87,7 +86,7 @@ namespace ThePonyBookLibraries.Services
             }
         }
 
-        private bool ProcessUpdateContact(int id, string email, string firstName, string lastName)
+        private bool ProcessUpdateContact(int id, string email, string firstName, string lastName, string dob)
         {
             try
             {
@@ -98,6 +97,7 @@ namespace ThePonyBookLibraries.Services
                 contact.Email = email;
                 contact.FirstName = firstName;
                 contact.LastName = lastName;
+                contact.DOB = DateTime.Parse(dob);
 
                 _dbContext.SaveChangesAsync();
                 return true;

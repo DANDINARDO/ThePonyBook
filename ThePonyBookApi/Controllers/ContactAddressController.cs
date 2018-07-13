@@ -18,9 +18,9 @@ namespace ThePonyBookApi.Controllers
 
         [HttpGet]
         [Route("contactaddress")]
-        public IEnumerable<ApiContactAddressViewModel> GetContactAddresses(string email)
+        public IEnumerable<ApiContactAddressViewModel> GetContactAddresses(int contactId)
         {
-            return Mapper.Map<IEnumerable<ApiContactAddressViewModel>>(_contactAddressService.GetContactAddresses(email));
+            return Mapper.Map<IEnumerable<ApiContactAddressViewModel>>(_contactAddressService.GetContactAddresses(contactId));
         }
 
         [HttpPut]
