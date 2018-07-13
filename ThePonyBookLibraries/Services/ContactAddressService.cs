@@ -21,9 +21,9 @@ namespace ThePonyBookLibraries.Services
 
         #region Public Methods
 
-        public IEnumerable<ContactAddress> GetContactAddresses(string email)
+        public IEnumerable<ContactAddress> GetContactAddresses(int contactId)
         {
-            return RetrieveContactAddresses(email);
+            return RetrieveContactAddresses(contactId);
         }
 
         public bool CreateContactAddress(int contactId, string address1, string address2, string city, string region, string postalCode, int countryId)
@@ -45,11 +45,11 @@ namespace ThePonyBookLibraries.Services
 
         #region Private Methods
 
-        private IEnumerable<ContactAddress> RetrieveContactAddresses(string email)
+        private IEnumerable<ContactAddress> RetrieveContactAddresses(int contactId)
         {
             try
             {
-                var contactAddresses = _dbContext.AspNetUsers.FirstOrDefault(x => x.Email == email)?.Contacts.FirstOrDefault()?.ContactAddresses.ToList();
+                var contactAddresses = _dbContext.Contacts.FirstOrDefault(x => x.Id == contactId)?.ContactAddresses.ToList();
                 return contactAddresses;
             }
             catch (Exception ex)

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using ThePonyBookLibraries.ViewModels.ContactAddress;
 using ThePonyBookLibraries.ViewModels.ContactPhone;
 
@@ -16,6 +17,8 @@ namespace ThePonyBookLibraries.ViewModels.Contact
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
+
+        public DateTime? DOB { get; set; }
 
         public IEnumerable<ApiContactAddressViewModel> ContactAddresses { get; set; }
 

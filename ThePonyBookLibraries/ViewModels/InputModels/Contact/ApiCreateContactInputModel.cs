@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThePonyBookLibraries.ViewModels.InputModels
+﻿namespace ThePonyBookLibraries.ViewModels.InputModels.Contact
 {
     public class ApiCreateContactInputModel : ApiContactInputModelBase 
     {

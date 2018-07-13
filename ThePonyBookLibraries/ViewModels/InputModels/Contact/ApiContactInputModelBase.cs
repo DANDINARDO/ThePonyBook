@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ThePonyBookLibraries.ViewModels.InputModels
+namespace ThePonyBookLibraries.ViewModels.InputModels.Contact
 {
     public abstract class ApiContactInputModelBase
     {
@@ -12,5 +12,8 @@ namespace ThePonyBookLibraries.ViewModels.InputModels
 
         [StringLength(256)]
         public string LastName { get; set; }
+
+        [StringLength(256)]
+        public string DOB { get; set; }
     }
 }

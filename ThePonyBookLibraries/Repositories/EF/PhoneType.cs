@@ -15,6 +15,6 @@ namespace ThePonyBookLibraries.Repositories.EF
         public int Id { get; set; }
 
         [StringLength(256)]
-        public string PhoneTypeName { get; set; }
+        public string Name { get; set; }
     }
 }

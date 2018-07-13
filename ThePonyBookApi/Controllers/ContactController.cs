@@ -6,6 +6,7 @@ using ThePonyBookLibraries.Services.Interfaces;
 using ThePonyBookLibraries.ViewModels;
 using ThePonyBookLibraries.ViewModels.Contact;
 using ThePonyBookLibraries.ViewModels.InputModels;
+using ThePonyBookLibraries.ViewModels.InputModels.Contact;
 
 namespace ThePonyBookApi.Controllers
 {
@@ -29,14 +30,14 @@ namespace ThePonyBookApi.Controllers
         [Route("contact")]
         public bool CreateContact(ApiCreateContactInputModel inputModel)
         {
-           return _contactService.CreateContact(inputModel.Email, inputModel.FirstName, inputModel.LastName);
+           return _contactService.CreateContact(inputModel.Email, inputModel.FirstName, inputModel.LastName, inputModel.DOB);
         }
 
         [HttpPost]
         [Route("contact")]
         public bool UpdateContact(ApiUpdateContactInputModel inputModel)
         {
-            return _contactService.UpdateContact(inputModel.Id, inputModel.Email, inputModel.FirstName, inputModel.LastName);
+            return _contactService.UpdateContact(inputModel.Id, inputModel.Email, inputModel.FirstName, inputModel.LastName, inputModel.DOB);
         }
 
         [HttpDelete]
