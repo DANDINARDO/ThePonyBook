@@ -182,6 +182,8 @@
     <Compile Include="Repositories\EF\ThePonyBookModel.cs" />
     <Compile Include="Services\ContactAddressService.cs" />
     <Compile Include="Services\ContactPhoneService.cs" />
+    <Compile Include="Services\Interfaces\IPhoneTypeService.cs" />
+    <Compile Include="Services\PhoneTypeService.cs" />
     <Compile Include="Services\ContactService.cs" />
     <Compile Include="Services\CountryService.cs" />
     <Compile Include="Services\Interfaces\ICountryService.cs" />
