@@ -183,6 +183,8 @@
     <Compile Include="Services\ContactAddressService.cs" />
     <Compile Include="Services\ContactPhoneService.cs" />
     <Compile Include="Services\ContactService.cs" />
+    <Compile Include="Services\CountryService.cs" />
+    <Compile Include="Services\Interfaces\ICountryService.cs" />
     <Compile Include="Services\Interfaces\IContactPhoneService.cs" />
     <Compile Include="Services\Interfaces\IContactAddressService.cs" />
     <Compile Include="Services\Interfaces\IContactService.cs" />
