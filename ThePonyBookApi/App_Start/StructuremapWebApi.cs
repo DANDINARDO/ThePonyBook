@@ -31,6 +31,8 @@ namespace ThePonyBookApi.App_Start {
             container.Configure(x => x.For<IContactService>().Use<ContactService>());
             container.Configure(x => x.For<IDbContext>().Use<ThePonyBookModel>());
             container.Configure(x => x.For<IContactPhoneService>().Use<ContactPhoneService>());
+            container.Configure(x => x.For<IContactAddressService>().Use<ContactAddressService>());
+            container.Configure(x => x.For<ICountryService>().Use<CountryService>());
             GlobalConfiguration.Configuration.DependencyResolver = new StructureMapWebApiDependencyResolver(container);
         }
     }
