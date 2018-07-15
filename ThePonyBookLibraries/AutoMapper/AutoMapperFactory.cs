@@ -1,8 +1,5 @@
-﻿
-
-using AutoMapper;
+﻿using AutoMapper;
 using ThePonyBookLibraries.Repositories.EF;
-using ThePonyBookLibraries.ViewModels;
 using ThePonyBookLibraries.ViewModels.Contact;
 using ThePonyBookLibraries.ViewModels.ContactAddress;
 using ThePonyBookLibraries.ViewModels.ContactPhone;
@@ -20,6 +17,7 @@ namespace ThePonyBookLibraries.AutoMapper
             CreateMap<ContactPhone, ApiContactPhoneViewModel>();
             CreateMap<PhoneType, ApiPhoneTypeViewModel>();
             CreateMap<Country, ApiCountryViewModel>();
+            CreateMap<PhoneType, ApiPhoneTypeViewModel>();
         }
     }
 }
