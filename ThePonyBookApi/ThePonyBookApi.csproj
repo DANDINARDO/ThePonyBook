@@ -212,6 +212,7 @@
     <Compile Include="Controllers\ContactAddressController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ContactPhoneController.cs" />
+    <Compile Include="Controllers\PhoneTypeController.cs" />
     <Compile Include="Controllers\CountryController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />
