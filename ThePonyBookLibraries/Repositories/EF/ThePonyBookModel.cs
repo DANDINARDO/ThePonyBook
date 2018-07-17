@@ -25,6 +25,14 @@ namespace ThePonyBookLibraries.Repositories.EF
         public virtual DbSet<ContactPhone> ContactPhones { get; set; }
         public virtual DbSet<Country> Countries { get; set; }
         public virtual DbSet<PhoneType> PhoneTypes { get; set; }
+        public virtual DbSet<Vehicle> Vehicles { get; set; }
+        public virtual DbSet<VehicleBody> VehicleBodies { get; set; }
+        public virtual DbSet<VehicleEngine> VehicleEngines { get; set; }
+        public virtual DbSet<VehicleEnginePlant> VehicleEnginePlants { get; set; }
+        public virtual DbSet<VehicleGeneration> VehicleGenerations { get; set; }
+        public virtual DbSet<VehicleGenerationYear> VehicleGenerationYears { get; set; }
+        public virtual DbSet<VehicleManufacturer> VehicleManufacturers { get; set; }
+        public virtual DbSet<VehicleSubmodel> VehicleSubmodels { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -82,6 +90,14 @@ namespace ThePonyBookLibraries.Repositories.EF
         DbSet<ContactPhone> ContactPhones { get; set; }
         DbSet<Country> Countries { get; set; }
         DbSet<PhoneType> PhoneTypes { get; set; }
+        DbSet<Vehicle> Vehicles { get; set; }
+        DbSet<VehicleBody> VehicleBodies { get; set; }
+        DbSet<VehicleEngine> VehicleEngines { get; set; }
+        DbSet<VehicleEnginePlant> VehicleEnginePlants { get; set; }
+        DbSet<VehicleGeneration> VehicleGenerations { get; set; }
+        DbSet<VehicleGenerationYear> VehicleGenerationYears { get; set; }
+        DbSet<VehicleManufacturer> VehicleManufacturers { get; set; }
+        DbSet<VehicleSubmodel> VehicleSubmodels { get; set; }
 
         Task<int> SaveChangesAsync();
     }

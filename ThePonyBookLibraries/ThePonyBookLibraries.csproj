@@ -180,6 +180,14 @@
     <Compile Include="Repositories\EF\C__MigrationHistory.cs" />
     <Compile Include="Repositories\EF\PhoneType.cs" />
     <Compile Include="Repositories\EF\ThePonyBookModel.cs" />
+    <Compile Include="Repositories\EF\VehicleManufacturer.cs" />
+    <Compile Include="Repositories\EF\VehicleEnginePlant.cs" />
+    <Compile Include="Repositories\EF\VehicleEngine.cs" />
+    <Compile Include="Repositories\EF\VehicleBody.cs" />
+    <Compile Include="Repositories\EF\VehicleSubmodel.cs" />
+    <Compile Include="Repositories\EF\VehicleGenerationYear.cs" />
+    <Compile Include="Repositories\EF\VehicleGeneration.cs" />
+    <Compile Include="Repositories\EF\Vehicle.cs" />
     <Compile Include="Services\ContactAddressService.cs" />
     <Compile Include="Services\ContactPhoneService.cs" />
     <Compile Include="Services\Interfaces\IPhoneTypeService.cs" />
