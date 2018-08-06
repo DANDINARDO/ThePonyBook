@@ -190,6 +190,10 @@
     <Compile Include="Repositories\EF\Vehicle.cs" />
     <Compile Include="Services\ContactAddressService.cs" />
     <Compile Include="Services\ContactPhoneService.cs" />
+    <Compile Include="Services\Interfaces\IVehicleService.cs" />
+    <Compile Include="Services\Interfaces\IVehicleBodyService.cs" />
+    <Compile Include="Services\VehicleService.cs" />
+    <Compile Include="Services\VehicleBodyService.cs" />
     <Compile Include="Services\Interfaces\IPhoneTypeService.cs" />
     <Compile Include="Services\PhoneTypeService.cs" />
     <Compile Include="Services\ContactService.cs" />
